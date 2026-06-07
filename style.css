@@ -1,0 +1,74 @@
+
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0a0a0a;
+      color: #eef217;
+    }
+    header {
+      background-color: #001f3f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: #0d1be0;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #0d1be0;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px;
+      background: linear-gradient(to bottom, #001f3f, #0a0a0a);
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #0d1be0;
+    }
+    .hero p {
+      font-size: 1.2em;
+      color: #2610ec;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .service-card {
+      background-color: #0d1be0;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .service-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .social a {
+  color: #eef217;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.social a:hover {
+  color: #eef217;
+}
+
+    footer {
+      background-color: #67a8e4;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
